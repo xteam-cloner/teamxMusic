@@ -1,5 +1,5 @@
 from os import getenv
-
+from pyrogram import filters
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -25,3 +25,5 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1356469075").split()))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
+
+BANNED_USERS = filters.user()
