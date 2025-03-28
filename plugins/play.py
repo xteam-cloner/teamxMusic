@@ -32,7 +32,8 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 #from pytgcalls.exceptions import NoActiveGroupCall
-from pytgcalls.exceptions import NoActiveGroupCall, TelegramServerError, UnMuteNeeded
+from pytgcalls.exceptions import NoActiveGroupCall, UnMuteNeeded
+from ntgcalls import TelegramServerError
 #from pytgcalls.types import AudioPiped, HighQualityAudio
 from youtube_search import YoutubeSearch
 
