@@ -11,7 +11,7 @@ from pytgcalls.types import (
     VideoQuality,
     Update,
 )
-from pytgcalls.types.stream import StreamAudioEnded
+#from pytgcalls.types.stream import StreamAudioEnded
 from FallenMusic import (
     ASS_ID,
     ASS_NAME,
