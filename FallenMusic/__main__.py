@@ -45,7 +45,7 @@ from plugins import ALL_MODULES
 async def fallen_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
-        importlib.import_module("./plugins." + module)
+        importlib.import_module("plugins." + module)
     LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
     LOGGER.info("[•] Refreshing Directories...")
