@@ -39,7 +39,7 @@ from FallenMusic.Helpers.inline import (
     helpmenu,
     pm_buttons,
 )
-
+from config import BANNED_USERS
 checker = {}
 upvoters = {}
 
