@@ -22,7 +22,7 @@
 
 from pyrogram import filters
 from pyrogram.types import Message
-#from pytgcalls.types import AudioPiped, HighQualityAudio, Update
+from pytgcalls.types import Update
 
 from FallenMusic import BOT_ID, BOT_USERNAME, app, app2, fallendb, pytgcalls
 from FallenMusic.Helpers import _clear_, buttons, gen_thumb
